@@ -46,16 +46,5 @@ for item in data["fragments"]:
     print(f"Inviato segmento cat {cat}")
     time.sleep(0.05) # Piccola pausa per non intasare la rete (buona pratica)
 
-# per il codice di anna
-# 2. Invio i segmenti uno alla volta
-# Pattern: /segment -> [categoria (int), storia (string)]
-#for item in data["fragments"]:
-#    cat = str(item["mood"])
- #   txt = str(item["text"])
-  #  client.send_message("/segment", [cat, txt])
-  #  print(f"Inviato segmento cat {txt}")
-   # time.sleep(0.05) # Piccola pausa per non intasare la rete (buona pratica)
-
-#client.send_message("/start", [])
-
 print("Trasmissione completata.")
+
