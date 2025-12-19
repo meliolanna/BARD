@@ -13,20 +13,25 @@ data = {
     {
       "id": 1,
       "mood": "CALM",
-      "text": "The sun sets over the bustling city of New York, 1920. Protagonist, a weary jazz singer named Etta, finishes her last performance at the smoky speakeasy. Side character, an aging pianist named Charlie, packs up his belongings, his eyes filled with sadness. Their connection, once electric, now"
+      "text": "The train from Cremona hissed into Milano Lambrate. Three students stepped onto the platform, marching solemnly toward the Politecnico's Campus Leonardo. Today was the final battle: the submission for Creative Programming and Computing."
     },
     {
       "id": 2,
-      "mood": "ANXIOUS",
-      "text": "MOOD: ANXIOUS\n\nEtta's voice trembled as she gathered her belongings, her eyes darting around the dimly lit room. The once vibrant speakeasy now felt like an empty shell, the laughter and music long silenced. The air was thick with uncertainty, the tension in the room palpable. Etta could sense the weight of their past, the unspoken"
+      "mood": "CALM",
+      "text": "They seized a table in a chaotic study room and summoned their secret weapon—a fourth teammate connecting remotely from Calabria. 'I'm in', his voice crackled over the laptop speakers."
     },
     {
       "id": 3,
-      "mood": "CALM",
-      "text": "Etta's heart raced as she clutched the incriminating evidence, her mind racing with thoughts. The room seemed to close in around her, the shadows growing longer and more menacing. But then, a voice broke through the silence. It was Big Al, his tone steady and firm. He revealed the truth –"
+      "mood": "ANXIOUS",
+      "text": "Disaster struck immediately. The code refused to compile, sensors remained lifeless, and morale plummeted. 'Nothing works!' one cried out, burying his face in his hands. For hours, they fought against bugs and syntax errors, guided by the calm voice from the south."
+    },
+    {
+      "id": 3,
+      "mood": "ENERGETIC",
+      "text": "Suddenly, a breakthrough. A single line of code fixed the loop. The prototype finally blinked to life just minutes before the deadline. Breathless, they rushed to the presentation. As the device performed perfectly before the professors, they shared a tired, triumphant glance with the pixelated face on their screen. The war was over; they had won."
     }
   ],
-  "full_story": "The sun sets over the bustling city of New York, 1920. Protagonist, a weary jazz singer named Etta, finishes her last performance at the smoky speakeasy. Side character, an aging pianist named Charlie, packs up his belongings, his eyes filled with sadness. Their connection, once electric, now\n\nMOOD: ANXIOUS\n\nEtta's voice trembled as she gathered her belongings, her eyes darting around the dimly lit room. The once vibrant speakeasy now felt like an empty shell, the laughter and music long silenced. The air was thick with uncertainty, the tension in the room palpable. Etta could sense the weight of their past, the unspoken\n\nEtta's heart raced as she clutched the incriminating evidence, her mind racing with thoughts. The room seemed to close in around her, the shadows growing longer and more menacing. But then, a voice broke through the silence. It was Big Al, his tone steady and firm. He revealed the truth –"
+  "full_story": ""
 }
 
 
