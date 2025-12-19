@@ -1,28 +1,37 @@
 [
   {
-    "time": "0.00s–50.00s",
+    "time": "0.00s–34.00s",
     "top": [
       {
         "label": "high energy; rubato pacing; joyful tone; tight and dry texture; sudden release",
-        "score": 0.2233567237854004
+        "score": 0.22185663878917694
       }
     ]
   },
   {
-    "time": "50.00s–100.00s",
+    "time": "34.00s–68.00s",
     "top": [
       {
-        "label": "high energy; rubato pacing; ominous tone; grainy and gritty texture; sudden release",
-        "score": 0.30446135997772217
+        "label": "high energy; rubato pacing; joyful tone; tight and dry texture; sudden release",
+        "score": 0.23569560050964355
       }
     ]
   },
   {
-    "time": "100.00s–150.00s",
+    "time": "68.00s–102.00s",
     "top": [
       {
-        "label": "centered on banjo; high energy; very fast tempo; warm tone; dense texture; unresolved tension",
-        "score": 0.3364049196243286
+        "label": "high energy; fast tempo; ominous tone; tight and dry texture; sudden release",
+        "score": 0.2803293466567993
+      }
+    ]
+  },
+  {
+    "time": "102.00s–136.00s",
+    "top": [
+      {
+        "label": "high energy; very fast tempo; playful tone; smooth and clean texture; sudden release",
+        "score": 0.26987648010253906
       }
     ]
   }

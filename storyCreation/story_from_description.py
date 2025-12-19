@@ -208,25 +208,61 @@ MUSIC FEELING:
 
 
 # ---------- main ----------
+   
 
 def load_segments(path: str) -> List[Dict[str, Any]]:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Accept either {"segments":[...]} or just [...]
+    # FORMAT A (your CLAP output): a list of chunks
+    # [
+    #   {"time": "...", "top": [{"label": "...", "score": 0.33}, ...]},
+    #   ...
+    # ]
     if isinstance(data, list):
-        segments = data
-    else:
+        segments: List[Dict[str, Any]] = []
+        for i, item in enumerate(data):
+            top = item.get("top", [])
+
+            # find the best available label
+            label = None
+            if isinstance(top, list) and len(top) > 0:
+                # choose highest score if scores exist, otherwise first label
+                def score_of(x):
+                    try:
+                        return float(x.get("score", -1e9))
+                    except Exception:
+                        return -1e9
+
+                best = max(
+                    (x for x in top if isinstance(x, dict) and "label" in x),
+                    key=score_of,
+                    default=None
+                )
+                if best is not None:
+                    label = str(best["label"]).strip()
+
+            if not label:
+                raise ValueError(f"Chunk #{i} has no usable top[].label in {path}")
+
+            segments.append({"id": i + 1, "music_prompt": label})
+
+        if not segments:
+            raise ValueError(f"No segments parsed from list JSON in {path}")
+        return segments
+
+    # FORMAT B (old): {"segments":[{"id":..,"music_prompt":..}, ...]}
+    if isinstance(data, dict) and "segments" in data:
         segments = data.get("segments", [])
+        if not segments:
+            raise ValueError("segments is empty")
+        for i, seg in enumerate(segments):
+            if "music_prompt" not in seg:
+                raise ValueError(f"Segment #{i} missing 'music_prompt' field.")
+        return segments
 
-    if not segments:
-        raise ValueError("No segments found. Provide JSON with 'segments': [...]")
+    raise ValueError("Unsupported JSON format. Expected list (CLAP output) or dict with 'segments'.")
 
-    # require music_prompt
-    for i, seg in enumerate(segments):
-        if "music_prompt" not in seg:
-            raise ValueError(f"Segment #{i} missing 'music_prompt' field.")
-    return segments
 
 
 def main():
