@@ -9,6 +9,7 @@ OscP5 oscP5;
 // ma per RICEVERE basta che la porta sia giusta.
 String ip = "127.0.0.1"; 
 int port = 5005; // Assicurati che Python mandi a questa porta
+NetAddress pythonVoiceLocation;
 
 // --- STRUTTURA DATI PER I SEGMENTI ---
 ArrayList<Segmento> playlist = new ArrayList<Segmento>();
@@ -65,6 +66,7 @@ void setup() {
   
   // Inizializza OSC sulla porta di ascolto
   oscP5 = new OscP5(this, port);
+  pythonVoiceLocation = new NetAddress("127.0.0.1", 5006);
   
   myFont = createFont("Georgia", fontSize); 
   textFont(myFont);
@@ -161,7 +163,12 @@ void loadNextSegment() {
   
   fullText = seg.testo;
   calculatePages(); 
-  loadPage(0);      
+  loadPage(0);    
+  
+  OscMessage msgVoce = new OscMessage("/speak");
+  msgVoce.add(seg.testo); // Aggiunge il testo al messaggio
+  oscP5.send(msgVoce, pythonVoiceLocation); // Spedisce a Python (porta 12001)
+  println(">>> COMANDO VOCALE INVIATO PER: " + seg.testo);
   
   // DEBUG: Controlliamo se ha creato le parole volanti
   println(">>> PAROLE CREATE: " + wordsObjects.size());
