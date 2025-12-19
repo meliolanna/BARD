@@ -1,0 +1,300 @@
+low energy; slow tempo; cold tone; sparse texture; rising tension
+high energy; slow tempo; anxious tone; dense texture; sudden release
+low energy; moderate tempo; solemn tone; dense texture; high tension
+low energy; very slow tempo; dark tone; dense texture; sudden release
+high energy; moderate tempo; dark tone; sparse texture; rising tension
+low energy; slow tempo; anxious tone; spacious texture; rising tension
+high energy; steady pulse; playful tone; sparse texture; subdued tension
+moderate energy; fast tempo; serene tone; sparse texture; rising tension
+high energy; steady pulse; bright tone; spacious texture; subdued tension
+high energy; very slow tempo; cold tone; spacious texture; gentle release
+surging intensity; steady pulse; cold tone; dense texture; sudden release
+very high energy; steady pulse; joyful tone; sparse texture; high tension
+low energy; slow tempo; cold tone; grainy and gritty texture; high tension
+moderate energy; steady pulse; cold tone; dense texture; fragile stability
+surging intensity; rubato pacing; warm tone; dense texture; rising tension
+low energy; very fast tempo; ominous tone; spacious texture; rising tension
+moderate energy; slow tempo; anxious tone; shimmering texture; high tension
+very low energy; rubato pacing; warm tone; spacious texture; sudden release
+high energy; fast tempo; ominous tone; tight and dry texture; sudden release
+high energy; slow tempo; serene tone; airy and light texture; gentle release
+moderate energy; fast tempo; joyful tone; shimmering texture; sudden release
+surging intensity; slow tempo; dark tone; shimmering texture; rising tension
+surging intensity; steady pulse; cold tone; spacious texture; gentle release
+very high energy; fast tempo; serene tone; spacious texture; subdued tension
+high energy; rubato pacing; playful tone; shimmering texture; subdued tension
+low energy; steady pulse; ominous tone; shimmering texture; fragile stability
+surging intensity; very slow tempo; dark tone; dense texture; subdued tension
+very high energy; fast tempo; serene tone; shimmering texture; gentle release
+very low energy; steady pulse; solemn tone; dense texture; unresolved tension
+high energy; rubato pacing; joyful tone; tight and dry texture; sudden release
+low energy; moderate tempo; cold tone; airy and light texture; subdued tension
+low energy; slow tempo; bright tone; airy and light texture; fragile stability
+low energy; slow tempo; bright tone; grainy and gritty texture; sudden release
+low energy; steady pulse; ominous tone; shimmering texture; unresolved tension
+restrained intensity; slow tempo; warm tone; sparse texture; fragile stability
+surging intensity; rubato pacing; bright tone; sparse texture; subdued tension
+very high energy; rubato pacing; serene tone; spacious texture; rising tension
+very low energy; rubato pacing; mysterious tone; dense texture; sudden release
+high energy; moderate tempo; bittersweet tone; shimmering texture; high tension
+low energy; slow tempo; bright tone; grainy and gritty texture; subdued tension
+very high energy; slow tempo; ominous tone; tight and dry texture; high tension
+very low energy; very fast tempo; playful tone; sparse texture; subdued tension
+high energy; very slow tempo; melancholic tone; dense texture; fragile stability
+moderate energy; fast tempo; dark tone; smooth and clean texture; gentle release
+moderate energy; very fast tempo; warm tone; tight and dry texture; high tension
+restrained intensity; steady pulse; joyful tone; sparse texture; subdued tension
+very high energy; fast tempo; bright tone; tight and dry texture; rising tension
+very high energy; very fast tempo; solemn tone; dense texture; fragile stability
+high energy; very fast tempo; cold tone; smooth and clean texture; sudden release
+high energy; very slow tempo; joyful tone; airy and light texture; sudden release
+low energy; rubato pacing; playful tone; smooth and clean texture; rising tension
+low energy; very slow tempo; melancholic tone; shimmering texture; sudden release
+moderate energy; rubato pacing; solemn tone; airy and light texture; high tension
+moderate energy; slow tempo; solemn tone; grainy and gritty texture; high tension
+moderate energy; very fast tempo; melancholic tone; dense texture; gentle release
+moderate energy; very fast tempo; mysterious tone; sparse texture; sudden release
+restrained intensity; steady pulse; bright tone; spacious texture; gentle release
+surging intensity; rubato pacing; serene tone; shimmering texture; rising tension
+surging intensity; slow tempo; mysterious tone; sparse texture; fragile stability
+very high energy; rubato pacing; melancholic tone; dense texture; subdued tension
+very high energy; very slow tempo; joyful tone; spacious texture; subdued tension
+very high energy; very slow tempo; joyful tone; sparse texture; fragile stability
+very low energy; fast tempo; warm tone; smooth and clean texture; subdued tension
+very low energy; slow tempo; solemn tone; grainy and gritty texture; high tension
+high energy; rubato pacing; ominous tone; tight and dry texture; fragile stability
+high energy; slow tempo; bright tone; smooth and clean texture; unresolved tension
+high energy; steady pulse; playful tone; grainy and gritty texture; rising tension
+low energy; fast tempo; melancholic tone; smooth and clean texture; sudden release
+low energy; rubato pacing; solemn tone; wide and reverberant space; rising tension
+moderate energy; fast tempo; playful tone; airy and light texture; subdued tension
+moderate energy; fast tempo; solemn tone; smooth and clean texture; rising tension
+moderate energy; slow tempo; dark tone; grainy and gritty texture; subdued tension
+moderate energy; steady pulse; melancholic tone; spacious texture; subdued tension
+moderate energy; very fast tempo; melancholic tone; sparse texture; gentle release
+moderate energy; very slow tempo; warm tone; tight and dry texture; sudden release
+restrained intensity; fast tempo; anxious tone; shimmering texture; sudden release
+restrained intensity; steady pulse; cold tone; spacious texture; fragile stability
+restrained intensity; very slow tempo; playful tone; dense texture; rising tension
+restrained intensity; very slow tempo; warm tone; shimmering texture; high tension
+surging intensity; very slow tempo; solemn tone; spacious texture; subdued tension
+very high energy; fast tempo; cold tone; grainy and gritty texture; rising tension
+very high energy; fast tempo; melancholic tone; shimmering texture; sudden release
+very high energy; fast tempo; ominous tone; shimmering texture; unresolved tension
+very low energy; rubato pacing; mysterious tone; spacious texture; subdued tension
+very low energy; slow tempo; solemn tone; smooth and clean texture; gentle release
+high energy; moderate tempo; anxious tone; smooth and clean texture; rising tension
+high energy; rubato pacing; ominous tone; grainy and gritty texture; sudden release
+high energy; slow tempo; mysterious tone; smooth and clean texture; subdued tension
+high energy; slow tempo; ominous tone; smooth and clean texture; unresolved tension
+high energy; steady pulse; dark tone; wide and reverberant space; fragile stability
+low energy; moderate tempo; melancholic tone; tight and dry texture; rising tension
+low energy; slow tempo; melancholic tone; smooth and clean texture; subdued tension
+low energy; very fast tempo; joyful tone; grainy and gritty texture; rising tension
+surging intensity; rubato pacing; joyful tone; airy and light texture; high tension
+surging intensity; rubato pacing; warm tone; airy and light texture; sudden release
+surging intensity; slow tempo; dark tone; grainy and gritty texture; sudden release
+surging intensity; steady pulse; bittersweet tone; dense texture; fragile stability
+surging intensity; very fast tempo; bittersweet tone; dense texture; gentle release
+surging intensity; very slow tempo; warm tone; spacious texture; unresolved tension
+very high energy; moderate tempo; playful tone; tight and dry texture; high tension
+very high energy; steady pulse; dark tone; smooth and clean texture; gentle release
+very low energy; moderate tempo; melancholic tone; spacious texture; gentle release
+very low energy; moderate tempo; solemn tone; tight and dry texture; rising tension
+high energy; very fast tempo; playful tone; smooth and clean texture; sudden release
+low energy; steady pulse; anxious tone; smooth and clean texture; unresolved tension
+moderate energy; moderate tempo; bittersweet tone; spacious texture; subdued tension
+moderate energy; moderate tempo; dark tone; smooth and clean texture; sudden release
+moderate energy; slow tempo; joyful tone; grainy and gritty texture; subdued tension
+moderate energy; very fast tempo; bittersweet tone; spacious texture; sudden release
+moderate energy; very fast tempo; mysterious tone; sparse texture; fragile stability
+restrained intensity; very fast tempo; joyful tone; dense texture; fragile stability
+restrained intensity; very fast tempo; solemn tone; dense texture; fragile stability
+surging intensity; moderate tempo; cold tone; airy and light texture; gentle release
+surging intensity; moderate tempo; playful tone; shimmering texture; subdued tension
+very high energy; fast tempo; bright tone; airy and light texture; fragile stability
+very high energy; very fast tempo; serene tone; airy and light texture; high tension
+very low energy; fast tempo; joyful tone; wide and reverberant space; rising tension
+very low energy; slow tempo; bittersweet tone; tight and dry texture; rising tension
+very low energy; steady pulse; joyful tone; tight and dry texture; fragile stability
+high energy; moderate tempo; mysterious tone; grainy and gritty texture; high tension
+high energy; very fast tempo; anxious tone; grainy and gritty texture; sudden release
+moderate energy; fast tempo; anxious tone; airy and light texture; unresolved tension
+moderate energy; moderate tempo; mysterious tone; shimmering texture; subdued tension
+moderate energy; slow tempo; cold tone; grainy and gritty texture; unresolved tension
+moderate energy; steady pulse; solemn tone; smooth and clean texture; subdued tension
+restrained intensity; rubato pacing; warm tone; tight and dry texture; rising tension
+restrained intensity; slow tempo; warm tone; smooth and clean texture; sudden release
+surging intensity; fast tempo; solemn tone; tight and dry texture; unresolved tension
+surging intensity; moderate tempo; solemn tone; tight and dry texture; sudden release
+surging intensity; rubato pacing; mysterious tone; shimmering texture; gentle release
+very high energy; fast tempo; bittersweet tone; tight and dry texture; gentle release
+very high energy; fast tempo; warm tone; grainy and gritty texture; fragile stability
+very high energy; rubato pacing; melancholic tone; shimmering texture; sudden release
+very low energy; moderate tempo; anxious tone; airy and light texture; rising tension
+high energy; very slow tempo; solemn tone; smooth and clean texture; fragile stability
+moderate energy; rubato pacing; solemn tone; tight and dry texture; unresolved tension
+moderate energy; steady pulse; playful tone; grainy and gritty texture; gentle release
+restrained intensity; fast tempo; warm tone; grainy and gritty texture; sudden release
+surging intensity; moderate tempo; bright tone; airy and light texture; sudden release
+surging intensity; slow tempo; melancholic tone; tight and dry texture; sudden release
+surging intensity; steady pulse; dark tone; wide and reverberant space; rising tension
+very low energy; very slow tempo; ominous tone; airy and light texture; rising tension
+featuring piano; low energy; fast tempo; solemn tone; dense texture; unresolved tension
+high energy; moderate tempo; solemn tone; wide and reverberant space; fragile stability
+high energy; slow tempo; bittersweet tone; smooth and clean texture; unresolved tension
+high energy; very fast tempo; warm tone; wide and reverberant space; unresolved tension
+low energy; fast tempo; mysterious tone; wide and reverberant space; unresolved tension
+moderate energy; moderate tempo; dark tone; smooth and clean texture; fragile stability
+restrained intensity; steady pulse; joyful tone; airy and light texture; sudden release
+surging intensity; very fast tempo; solemn tone; airy and light texture; sudden release
+techno leaning; high energy; fast tempo; anxious tone; spacious texture; rising tension
+very high energy; fast tempo; ominous tone; wide and reverberant space; subdued tension
+very high energy; very slow tempo; playful tone; smooth and clean texture; high tension
+very low energy; moderate tempo; anxious tone; wide and reverberant space; high tension
+very low energy; very fast tempo; dark tone; grainy and gritty texture; subdued tension
+moderate energy; rubato pacing; solemn tone; wide and reverberant space; subdued tension
+moderate energy; very slow tempo; ominous tone; tight and dry texture; fragile stability
+restrained intensity; fast tempo; joyful tone; smooth and clean texture; subdued tension
+restrained intensity; fast tempo; melancholic tone; spacious texture; unresolved tension
+restrained intensity; rubato pacing; joyful tone; airy and light texture; sudden release
+restrained intensity; very slow tempo; cold tone; airy and light texture; rising tension
+restrained intensity; very slow tempo; warm tone; airy and light texture; gentle release
+surging intensity; fast tempo; playful tone; wide and reverberant space; subdued tension
+surging intensity; rubato pacing; anxious tone; smooth and clean texture; sudden release
+surging intensity; very slow tempo; ominous tone; airy and light texture; gentle release
+very high energy; moderate tempo; bright tone; airy and light texture; fragile stability
+very high energy; rubato pacing; anxious tone; smooth and clean texture; subdued tension
+very high energy; steady pulse; playful tone; wide and reverberant space; rising tension
+very low energy; fast tempo; ominous tone; wide and reverberant space; fragile stability
+very low energy; fast tempo; serene tone; dense texture; gentle release; sustained tones
+very low energy; steady pulse; cold tone; wide and reverberant space; unresolved tension
+very low energy; steady pulse; solemn tone; grainy and gritty texture; fragile stability
+very low energy; very slow tempo; bright tone; grainy and gritty texture; gentle release
+moderate energy; rubato pacing; ominous tone; smooth and clean texture; fragile stability
+moderate energy; very fast tempo; ominous tone; tight and dry texture; unresolved tension
+restrained intensity; fast tempo; bright tone; wide and reverberant space; rising tension
+restrained intensity; moderate tempo; solemn tone; tight and dry texture; subdued tension
+restrained intensity; very slow tempo; bright tone; tight and dry texture; rising tension
+rock feel; moderate energy; fast tempo; cold tone; airy and light texture; gentle release
+very high energy; fast tempo; mysterious tone; wide and reverberant space; sudden release
+very high energy; moderate tempo; bittersweet tone; tight and dry texture; sudden release
+very high energy; moderate tempo; bright tone; grainy and gritty texture; subdued tension
+very high energy; moderate tempo; mysterious tone; tight and dry texture; subdued tension
+very low energy; rubato pacing; bittersweet tone; grainy and gritty texture; high tension
+very low energy; steady pulse; mysterious tone; grainy and gritty texture; sudden release
+very low energy; steady pulse; ominous tone; grainy and gritty texture; fragile stability
+very low energy; very fast tempo; anxious tone; grainy and gritty texture; gentle release
+very low energy; very fast tempo; dark tone; grainy and gritty texture; fragile stability
+very low energy; very slow tempo; ominous tone; smooth and clean texture; subdued tension
+moderate energy; rubato pacing; bittersweet tone; tight and dry texture; fragile stability
+moderate energy; steady pulse; ominous tone; wide and reverberant space; fragile stability
+moderate energy; very fast tempo; melancholic tone; airy and light texture; gentle release
+surging intensity; moderate tempo; anxious tone; grainy and gritty texture; sudden release
+surging intensity; very slow tempo; serene tone; grainy and gritty texture; gentle release
+very high energy; very fast tempo; melancholic tone; tight and dry texture; gentle release
+very high energy; very fast tempo; ominous tone; grainy and gritty texture; sudden release
+moderate energy; fast tempo; melancholic tone; smooth and clean texture; unresolved tension
+moderate energy; moderate tempo; melancholic tone; smooth and clean texture; gentle release
+moderate energy; very slow tempo; bright tone; smooth and clean texture; unresolved tension
+restrained intensity; steady pulse; mysterious tone; smooth and clean texture; high tension
+restrained intensity; very fast tempo; melancholic tone; shimmering texture; gentle release
+surging intensity; very fast tempo; playful tone; grainy and gritty texture; rising tension
+very low energy; very slow tempo; melancholic tone; grainy and gritty texture; high tension
+centered on oboe; low energy; steady pulse; dark tone; tight and dry texture; sudden release
+centered on piano; high energy; very slow tempo; bright tone; spacious texture; high tension
+centered on viola; high energy; very slow tempo; warm tone; spacious texture; sudden release
+hip hop feel; very low energy; slow tempo; ominous tone; tight and dry texture; high tension
+moderate energy; steady pulse; bittersweet tone; wide and reverberant space; subdued tension
+moderate energy; very fast tempo; bittersweet tone; smooth and clean texture; gentle release
+moderate energy; very fast tempo; bittersweet tone; smooth and clean texture; rising tension
+moderate energy; very fast tempo; solemn tone; wide and reverberant space; fragile stability
+restrained intensity; fast tempo; bittersweet tone; smooth and clean texture; rising tension
+surging intensity; moderate tempo; anxious tone; wide and reverberant space; subdued tension
+surging intensity; very fast tempo; solemn tone; wide and reverberant space; subdued tension
+very high energy; very fast tempo; anxious tone; wide and reverberant space; subdued tension
+very high energy; very slow tempo; mysterious tone; smooth and clean texture; gentle release
+very low energy; moderate tempo; bittersweet tone; grainy and gritty texture; sudden release
+very low energy; very slow tempo; melancholic tone; tight and dry texture; fragile stability
+centered on banjo; high energy; very fast tempo; warm tone; dense texture; unresolved tension
+centered on banjo; very high energy; rubato pacing; warm tone; dense texture; subdued tension
+centered on cello; high energy; rubato pacing; dark tone; spacious texture; fragile stability
+featuring bassoon; low energy; very slow tempo; dark tone; shimmering texture; sudden release
+featuring flute; high energy; very slow tempo; cold tone; spacious texture; fragile stability
+featuring trumpet; moderate energy; steady pulse; anxious tone; dense texture; gentle release
+restrained intensity; steady pulse; melancholic tone; grainy and gritty texture; high tension
+rock feel; low energy; very slow tempo; anxious tone; grainy and gritty texture; high tension
+surging intensity; very fast tempo; mysterious tone; wide and reverberant space; high tension
+very high energy; very fast tempo; bright tone; grainy and gritty texture; unresolved tension
+very low energy; moderate tempo; melancholic tone; wide and reverberant space; sudden release
+electronic leaning; low energy; fast tempo; playful tone; airy and light texture; high tension
+featuring drum kit; high energy; fast tempo; bright tone; airy and light texture; high tension
+high energy; fast tempo; solemn tone; airy and light texture; fragile stability; sharp attacks
+moderate energy; steady pulse; melancholic tone; grainy and gritty texture; unresolved tension
+restrained intensity; moderate tempo; melancholic tone; airy and light texture; sudden release
+restrained intensity; rubato pacing; serene tone; grainy and gritty texture; fragile stability
+surging intensity; rubato pacing; melancholic tone; airy and light texture; unresolved tension
+very low energy; fast tempo; joyful tone; shimmering texture; fragile stability; sharp attacks
+centered on cello; low energy; moderate tempo; cold tone; tight and dry texture; gentle release
+centered on harp; moderate energy; slow tempo; solemn tone; shimmering texture; subdued tension
+centered on harpsichord; very high energy; fast tempo; cold tone; dense texture; sudden release
+centered on piano; surging intensity; very fast tempo; dark tone; dense texture; rising tension
+featuring harp; high energy; rubato pacing; warm tone; smooth and clean texture; sudden release
+featuring oboe; high energy; fast tempo; solemn tone; airy and light texture; fragile stability
+featuring ukulele; high energy; slow tempo; dark tone; wide and reverberant space; high tension
+folk feel; high energy; slow tempo; mysterious tone; airy and light texture; unresolved tension
+in a rock style; very high energy; slow tempo; bittersweet tone; sparse texture; rising tension
+restrained intensity; moderate tempo; warm tone; wide and reverberant space; unresolved tension
+very high energy; very fast tempo; melancholic tone; wide and reverberant space; gentle release
+very high energy; very slow tempo; ominous tone; wide and reverberant space; unresolved tension
+very low energy; rubato pacing; ominous tone; spacious texture; gentle release; sustained tones
+centered on mandolin; low energy; moderate tempo; serene tone; dense texture; unresolved tension
+featuring drum beat; high energy; very fast tempo; cold tone; sparse texture; unresolved tension
+featuring ukulele; low energy; moderate tempo; bright tone; spacious texture; unresolved tension
+very high energy; slow tempo; cold tone; wide and reverberant space; high tension; sharp attacks
+with prominent viola; surging intensity; steady pulse; dark tone; spacious texture; high tension
+centered on banjo; surging intensity; very fast tempo; ominous tone; sparse texture; high tension
+centered on choir; very high energy; very fast tempo; playful tone; dense texture; sudden release
+centered on drum beat; moderate energy; steady pulse; serene tone; spacious texture; high tension
+centered on electric guitar; high energy; fast tempo; warm tone; spacious texture; rising tension
+centered on trombone; high energy; fast tempo; melancholic tone; spacious texture; rising tension
+centered on viola; moderate energy; fast tempo; melancholic tone; sparse texture; subdued tension
+electronic organ leaning; high energy; slow tempo; joyful tone; dense texture; unresolved tension
+featuring crash cymbal; very high energy; fast tempo; bright tone; dense texture; subdued tension
+featuring harpsichord; moderate energy; very slow tempo; warm tone; dense texture; rising tension
+featuring mandolin; restrained intensity; steady pulse; playful tone; dense texture; high tension
+restrained intensity; rubato pacing; bittersweet tone; grainy and gritty texture; subdued tension
+restrained intensity; very fast tempo; melancholic tone; smooth and clean texture; rising tension
+very low energy; very fast tempo; bittersweet tone; grainy and gritty texture; unresolved tension
+with prominent drum beat; low energy; slow tempo; solemn tone; shimmering texture; rising tension
+with prominent harp; low energy; moderate tempo; playful tone; shimmering texture; rising tension
+centered on ukulele; surging intensity; fast tempo; dark tone; shimmering texture; subdued tension
+centered on violin; very low energy; rubato pacing; ominous tone; shimmering texture; high tension
+featuring harpsichord; moderate energy; rubato pacing; serene tone; spacious texture; high tension
+moderate energy; fast tempo; serene tone; airy and light texture; subdued tension; sustained tones
+progressive rock leaning; moderate energy; slow tempo; ominous tone; dense texture; gentle release
+with prominent accordion; surging intensity; steady pulse; dark tone; sparse texture; high tension
+with prominent alto saxophone; low energy; fast tempo; bright tone; dense texture; subdued tension
+classical feel; surging intensity; very slow tempo; bittersweet tone; dense texture; sudden release
+featuring drum beat; very low energy; rubato pacing; joyful tone; dense texture; unresolved tension
+featuring piano; low energy; moderate tempo; serene tone; grainy and gritty texture; sudden release
+moderate energy; rubato pacing; cold tone; shimmering texture; subdued tension; long legato phrases
+restrained intensity; very slow tempo; mysterious tone; smooth and clean texture; fragile stability
+surging intensity; very fast tempo; bittersweet tone; grainy and gritty texture; unresolved tension
+with prominent flute; very low energy; slow tempo; cold tone; tight and dry texture; sudden release
+with prominent harp; very low energy; very fast tempo; ominous tone; spacious texture; high tension
+centered on electronic organ; low energy; fast tempo; solemn tone; dense texture; unresolved tension
+centered on flute; high energy; slow tempo; joyful tone; wide and reverberant space; subdued tension
+centered on oboe; very high energy; rubato pacing; cold tone; smooth and clean texture; high tension
+energy drops but emotional weight increases, fragile stability, bittersweet release, reflective pac…
+featuring bassoon; low energy; very slow tempo; dark tone; airy and light texture; fragile stability
+featuring drum machine; high energy; steady pulse; solemn tone; airy and light texture; high tension
+featuring flute; restrained intensity; rubato pacing; bright tone; dense texture; unresolved tension
+in a house music style; low energy; fast tempo; solemn tone; grainy and gritty texture; high tension
+low energy, slow tempo, dark and spacious texture, subdued tension, long legato phrases, sense of i…
+low energy; slow tempo; ominous tone; tight and dry texture; unresolved tension; fragmented phrasing
+moderate energy; very fast tempo; joyful tone; shimmering texture; high tension; long legato phrases
+rock feel, with prominent ukulele; low energy; fast tempo; serene tone; sparse texture; high tension
+very high energy; steady pulse; serene tone; shimmering texture; unresolved tension; sustained tones
+with prominent clarinet; high energy; slow tempo; joyful tone; shimmering texture; fragile stability
+with prominent ukulele; moderate energy; steady pulse; serene tone; spacious texture; rising tension
