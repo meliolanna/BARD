@@ -1,21 +1,8 @@
+
 {
-  "setting": "Milano nel 2080",
   "segments": [
-    {
-      "id": 1,
-      "music_description": "in a folk music style; surging intensity; rubato pacing; bright tone; sparse texture; subdued tension; breath-like phrasing; post-climax release"
-    },
-    {
-      "id": 2,
-      "music_description": "in a folk music style; surging intensity; rubato pacing; bright tone; sparse texture; subdued tension; breath-like phrasing; post-climax release"
-    },
-    {
-      "id": 3,
-      "music_description": "in a folk music style; surging intensity; rubato pacing; bright tone; sparse texture; subdued tension; breath-like phrasing; post-climax release"
-    },
-    {
-      "id": 4,
-      "music_description": "in a rhythm and blues style, featuring bassline and flute; low energy; very fast tempo; joyful tone; grainy and gritty texture; rising tension"
-    }
+    { "id": 1, "music_prompt": "Energy drops but emotional weight increases, fragile stability, bittersweet release, reflective pacing, unresolved warmth, melancholic closure." },
+    { "id": 2, "music_prompt": "Tension spikes, anxious forward motion, fractured focus, urgent choices, near-panic clarity." },
+    { "id": 3, "music_prompt": "Explosions, anxious forward motion, jazz , urgent choices, near-panic clarity." }
   ]
 }

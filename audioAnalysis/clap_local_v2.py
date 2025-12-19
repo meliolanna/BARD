@@ -284,7 +284,8 @@ def main():
     p.add_argument("--chunk_s", type=float, default=10.0, help="Chunk size in seconds (embeddings mode)")
     p.add_argument("--hop_s", type=float, default=None, help="Hop size in seconds (embeddings mode). Default = chunk_s")
     p.add_argument("--batch_size", type=int, default=64, help="Text embedding batch size (labelbank mode)")
-    p.add_argument("--out", default=None, help="Optional output JSON path")
+    p.add_argument("--out", default="clap_output.json", help="Output JSON filename/path (default: clap_output.json)")
+
 
     args = p.parse_args()
 
@@ -317,11 +318,13 @@ def main():
 
     print(json.dumps(output, indent=2, ensure_ascii=False))
 
-    if args.out:
-        out_path = Path(args.out).expanduser()
-        out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"\nSaved: {out_path}")
+    # Save output next to this script (same folder as clap_local_v2.py)
+    script_dir = Path(__file__).resolve().parent
+    out_name = args.out  # can be "clap_output.json" or "subdir/file.json"
+    out_path = (script_dir / out_name).resolve()
 
+    out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"\nSaved: {out_path}")
 
 if __name__ == "__main__":
     main()
