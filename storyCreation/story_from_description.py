@@ -6,6 +6,8 @@ import json
 import random
 from typing import Any, Dict, List, Tuple, Optional
 
+import re  # <-- add at top
+
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
@@ -19,14 +21,47 @@ def mistral_inst(user_text: str) -> str:
     return f"<s>[INST] {user_text.strip()} [/INST]"
 
 
+
+
+_SENT_END = re.compile(r'[.!?](?:["\')\]]+)?')  # sentence end punctuation
+
 def truncate_to_words(text: str, n_words: int) -> str:
+    """
+    Keeps ~n_words, but if it would cut mid-sentence, it will:
+    - look ahead up to EXTRA words to find the next sentence end and cut there
+    - otherwise cut back to the last sentence end before n_words
+    - last resort: add a period
+    """
     text = text.strip()
-    if n_words is None or n_words <= 0:
+    if not n_words or n_words <= 0:
         return text
+
     words = text.split()
     if len(words) <= n_words:
         return text
-    return " ".join(words[:n_words]).strip()
+
+    EXTRA = 60  # allow overshoot to finish a sentence
+    end_words = min(len(words), n_words + EXTRA)
+    candidate = " ".join(words[:end_words]).strip()
+
+    boundary = len(" ".join(words[:n_words]))  # char index around the target word limit
+
+    # 1) Prefer the first sentence end AFTER the boundary
+    m = _SENT_END.search(candidate[boundary:])
+    if m:
+        cut_idx = boundary + m.end()
+        return candidate[:cut_idx].strip()
+
+    # 2) Otherwise, fall back to last sentence end BEFORE the boundary
+    before = candidate[:boundary]
+    ends = list(_SENT_END.finditer(before))
+    if ends:
+        return before[:ends[-1].end()].strip()
+
+    # 3) Last resort: force a period
+    return (candidate.rstrip(" ,;:") + ".").strip()
+
+
 
 
 def estimate_max_new_tokens(target_words: int) -> int:
@@ -37,21 +72,11 @@ def estimate_max_new_tokens(target_words: int) -> int:
 
 
 def parse_block(raw: str) -> Tuple[str, str, str]:
-    """
-    Expected:
-      MOOD: ...
-      TEXT:
-      ...
-      FACTS:
-      ...
-    Returns: (mood, text, facts)
-    """
     raw = raw.strip()
     mood = "CALM"
     text = raw
     facts = ""
 
-    # mood
     for line in raw.splitlines()[:10]:
         if line.strip().upper().startswith("MOOD:"):
             cand = line.split(":", 1)[1].strip().upper()
@@ -70,7 +95,18 @@ def parse_block(raw: str) -> Tuple[str, str, str]:
         else:
             text = raw[t_pos + 5:].strip()
 
+    # NEW: remove any leaked headers inside TEXT
+    lines = []
+    for ln in text.splitlines():
+        if ln.strip().upper().startswith("MOOD:"):
+            continue
+        if ln.strip().upper().startswith("FACTS:"):
+            break
+        lines.append(ln)
+    text = "\n".join(lines).strip()
+
     return mood, text, facts
+
 
 
 
@@ -158,7 +194,8 @@ Pick exactly one MOOD label from: {", ".join(MOOD_LABELS)}.
 Output EXACTLY:
 MOOD: <LABEL>
 TEXT:
-~{words} words, 1–2 short paragraphs.
+About {words} words. End with a complete sentence (no cut-off).
+1–2 short paragraphs.
 FACTS:
 PROTAGONIST: ...
 SIDE CHARACTER: ...
@@ -199,7 +236,9 @@ Pick exactly one MOOD label from: {", ".join(MOOD_LABELS)}.
 Output EXACTLY:
 MOOD: <LABEL>
 TEXT:
-~{words} words, 1–2 short paragraphs.
+About {words} words. End with a complete sentence (no cut-off).
+1–2 short paragraphs.
+
 
 MUSIC FEELING:
 {music_prompt}
@@ -290,7 +329,7 @@ def main():
     print(f"Loading model: {args.model}")
     model, tokenizer = load_model(args.model, use_4bit=(not args.no_4bit))
 
-    max_new_tokens = estimate_max_new_tokens(args.words)
+    base_max_new_tokens = estimate_max_new_tokens(args.words)
     prev_text = ""
     facts = ""
     n_segments = len(segments)
@@ -303,7 +342,7 @@ def main():
 
         is_last = (idx == n_segments - 1)
         prompt = build_prompt_first(music_prompt, args.words) if idx == 0 else build_prompt_next(prev_text, facts, music_prompt, args.words, is_last)
-
+        max_new_tokens = base_max_new_tokens + (60 if idx == 0 else 0) + (40 if is_last else 0)
         raw = generate_once(
             model=model,
             tokenizer=tokenizer,
@@ -314,10 +353,12 @@ def main():
         )
 
         mood, text, new_facts = parse_block(raw)
-        prev_text = text
         if idx == 0 and new_facts.strip():
             facts = new_facts
+
         text = truncate_to_words(text, args.words)
+        text = " ".join(text.split())
+        prev_text = text  # <-- move here
 
         if args.print_live:
             print(f"\n=== FRAGMENT {seg_id} | MOOD={mood} ===\n{text}\n", flush=True)
