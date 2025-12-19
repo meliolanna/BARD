@@ -175,9 +175,9 @@ def run_pipeline(
         )
 
         print("\nPIPELINE COMPLETATA")
-        print(f"📄 Labelbank   -> {labelbank_path}")
-        print(f"📄 CLAP output -> {clap_out_path}")
-        print(f"📄 Words/chunk -> {words} (chunk_s={chunk_s}, wpm={reading_wpm:.0f})")
+        print(f"Labelbank   -> {labelbank_path}")
+        print(f"CLAP output -> {clap_out_path}")
+        print(f"Words/chunk -> {words} (chunk_s={chunk_s}, wpm={reading_wpm:.0f})")
 
     except subprocess.CalledProcessError as e:
         print(f"\nERRORE CRITICO: uno script è fallito (exit code {e.returncode}).")
@@ -224,11 +224,88 @@ def run_pipeline(
 
     print("Trasmissione completata.")
 
+    import pygame
 
+    def play_song(path: str):
+        path = str(Path(path).resolve())
+        pygame.mixer.init()
+        pygame.mixer.music.load(path)
+        pygame.mixer.music.play()
+
+        # keep the script alive until the song ends
+        while pygame.mixer.music.get_busy():
+            time.sleep(0.1)
+
+    play_song("arabesque1.wav")
+
+    import asyncio
+    import edge_tts
+    import pygame
+    import os
+    from pythonosc.dispatcher import Dispatcher
+    from pythonosc.osc_server import BlockingOSCUDPServer
+
+    # --- CONFIGURAZIONE VOCE ---
+    # Voci Maschili Inglesi consigliate:
+    # "en-US-ChristopherNeural" (Narrativo, profondo, ottimo per storie)
+    # "en-US-GuyNeural" (Più casual, standard)
+    # "en-US-EricNeural" (Energico)
+    # "en-GB-RyanNeural" (Britannico)
+    VOICE = "en-US-ChristopherNeural" 
+    OUTPUT_FILE = "temp_voice.mp3"
+
+    # Inizializza audio background
+    pygame.mixer.init()
+
+    # Funzione asincrona per generare l'audio con Edge
+    async def generate_edge_audio(text, output_file):
+        communicate = edge_tts.Communicate(text, VOICE)
+        await communicate.save(output_file)
+
+    def speak_handler(address, *args):
+        text_to_read = args[0]
+        print(f"  [Christopher]: {text_to_read}")
+        
+        try:
+            # 1. Ferma e libera l'audio precedente
+            if pygame.mixer.music.get_busy():
+                pygame.mixer.music.stop()
+            pygame.mixer.music.unload()
+            
+            # 2. Cancella il vecchio file se esiste (per sicurezza su Windows)
+            if os.path.exists(OUTPUT_FILE):
+                try:
+                    os.remove(OUTPUT_FILE)
+                except PermissionError:
+                    print(" Impossibile rimuovere il file precedente (ancora in uso?)")
+
+            # 3. Genera il nuovo audio (chiamata asincrona dentro codice sincrono)
+            asyncio.run(generate_edge_audio(text_to_read, OUTPUT_FILE))
+            
+            # 4. Riproduci
+            pygame.mixer.music.load(OUTPUT_FILE)
+            pygame.mixer.music.play()
+            
+        except Exception as e:
+            print(f"Errore Audio: {e}")
+
+    # Configurazione Server OSC
+    dispatcher = Dispatcher()
+    dispatcher.map("/speak", speak_handler)
+
+    ip = "127.0.0.1"
+    port = 5006
+
+    print(f" Server Vocale EDGE (Maschile) in ascolto su {ip}:{port}")
+    print(f" Voce selezionata: {VOICE}")
+
+    # Avvio server
+    server = BlockingOSCUDPServer((ip, port), dispatcher)
+    server.serve_forever()
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="BARD pipeline: CLAP -> story, with ratio-based chunking + reading-based words.")
-    ap.add_argument("--audio", default="GIOVANNI.mp3", help="Audio file path relative to project root.")
+    ap.add_argument("--audio", default="arabesque1.wav", help="Audio file path relative to project root.")
     ap.add_argument("--ratio", default="1/5", help="Chunk length as ratio of song duration (e.g. 1/5 or 0.2).")
     ap.add_argument("--wpm", type=float, default=180.0, help="Reading speed in words-per-minute (used to compute --words).")
     ap.add_argument("--build_labelbank", action="store_true", help="Build labelbank only if you ask (or if missing).")

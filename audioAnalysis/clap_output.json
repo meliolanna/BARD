@@ -1,37 +1,37 @@
 [
   {
-    "time": "0.00s–34.00s",
+    "time": "0.00s–33.00s",
     "top": [
       {
-        "label": "high energy; rubato pacing; joyful tone; tight and dry texture; sudden release",
-        "score": 0.22858783602714539
+        "label": "with prominent harp; low energy; moderate tempo; playful tone; shimmering texture; rising tension",
+        "score": 0.4493117928504944
       }
     ]
   },
   {
-    "time": "34.00s–68.00s",
+    "time": "33.00s–66.00s",
     "top": [
       {
-        "label": "high energy; rubato pacing; joyful tone; tight and dry texture; sudden release",
-        "score": 0.2372332066297531
+        "label": "energy drops but emotional weight increases, fragile stability, bittersweet release, reflective pac…",
+        "score": 0.4523426294326782
       }
     ]
   },
   {
-    "time": "68.00s–102.00s",
+    "time": "66.00s–99.00s",
     "top": [
       {
-        "label": "centered on choir; very high energy; very fast tempo; playful tone; dense texture; sudden release",
-        "score": 0.2719227075576782
+        "label": "featuring piano; low energy; fast tempo; solemn tone; dense texture; unresolved tension",
+        "score": 0.4668036997318268
       }
     ]
   },
   {
-    "time": "102.00s–136.00s",
+    "time": "99.00s–132.00s",
     "top": [
       {
-        "label": "centered on choir; very high energy; very fast tempo; playful tone; dense texture; sudden release",
-        "score": 0.2553349733352661
+        "label": "with prominent harp; low energy; moderate tempo; playful tone; shimmering texture; rising tension",
+        "score": 0.5025143027305603
       }
     ]
   }
