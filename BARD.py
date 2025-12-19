@@ -2,6 +2,7 @@ import subprocess
 import os
 from pathlib import Path
 import shutil
+import librosa
 
 def run_pipeline(audio_file):
     # --- 1. CONFIGURAZIONE PERCORSI ASSOLUTI ---
@@ -31,6 +32,18 @@ def run_pipeline(audio_file):
     print(f"🚀 Avvio Pipeline BARD (GPU Attiva) | Input: {audio_file}")
     print(f"📂 I file verranno organizzati nelle sottocartelle corrette.\n")
 
+    # --- NUOVO STEP: Calcolo Durata Audio ---
+    try:
+        print(f"📏 Lettura file per calcolo durata...")
+        # Usa librosa per ottenere la durata senza necessariamente caricare tutto in RAM se supportato
+        duration = librosa.get_duration(path=str(audio_path))
+        print(f"⏱️ Durata rilevata: {duration:.2f} secondi")
+    except Exception as e:
+        print(f"❌ Errore durante la lettura del file audio (è corrotto?): {e}")
+        return
+
+    print(f"📂 I file verranno organizzati nelle sottocartelle corrette.\n")
+
     try:
         # ---------------------------------------------------------
         # FASE 1: Generazione Labelbank
@@ -58,8 +71,8 @@ def run_pipeline(audio_file):
             "--audio", str(audio_path),           # Path assoluto audio
             "--mode", "embeddings",
             "--labelbank_json", "clap_unified_labelbank.json", # Lo trova qui (cwd)
-            "--top_k", "3",
-            "--chunk_s", "10",
+            "--top_k", "1",
+            "--chunk_s", str(int(duration/5)),
             "--out", str(path_segments_output)    # <-- FORZIAMO L'USCITA QUI
         ], cwd=str(dir_audio_analysis), check=True)
 
