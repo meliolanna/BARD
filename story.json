@@ -1,0 +1,20 @@
+{
+  "fragments": [
+    {
+      "id": 1,
+      "mood": "CALM",
+      "text": "The sun sets over the bustling city of New York, 1920. Protagonist, a weary jazz singer named Etta, finishes her last performance at the smoky speakeasy. Side character, an aging pianist named Charlie, packs up his belongings, his eyes filled with sadness. Their connection, once electric, now"
+    },
+    {
+      "id": 2,
+      "mood": "ANXIOUS",
+      "text": "MOOD: ANXIOUS\n\nEtta's voice trembled as she gathered her belongings, her eyes darting around the dimly lit room. The once vibrant speakeasy now felt like an empty shell, the laughter and music long silenced. The air was thick with uncertainty, the tension in the room palpable. Etta could sense the weight of their past, the unspoken"
+    },
+    {
+      "id": 3,
+      "mood": "CALM",
+      "text": "Etta's heart raced as she clutched the incriminating evidence, her mind racing with thoughts. The room seemed to close in around her, the shadows growing longer and more menacing. But then, a voice broke through the silence. It was Big Al, his tone steady and firm. He revealed the truth –"
+    }
+  ],
+  "full_story": "The sun sets over the bustling city of New York, 1920. Protagonist, a weary jazz singer named Etta, finishes her last performance at the smoky speakeasy. Side character, an aging pianist named Charlie, packs up his belongings, his eyes filled with sadness. Their connection, once electric, now\n\nMOOD: ANXIOUS\n\nEtta's voice trembled as she gathered her belongings, her eyes darting around the dimly lit room. The once vibrant speakeasy now felt like an empty shell, the laughter and music long silenced. The air was thick with uncertainty, the tension in the room palpable. Etta could sense the weight of their past, the unspoken\n\nEtta's heart raced as she clutched the incriminating evidence, her mind racing with thoughts. The room seemed to close in around her, the shadows growing longer and more menacing. But then, a voice broke through the silence. It was Big Al, his tone steady and firm. He revealed the truth –"
+}
